@@ -1,0 +1,600 @@
+<!DOCTYPE html><html lang="en" style=""><head><meta charset="utf-8"><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport"><link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800&amp;display=swap" rel="stylesheet"><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"><style>@layer base{html,body{width:100vw;margin:0;padding:0;background-color:#edfdf9;}body{overscroll-behavior:none;}.pb-safe{padding-bottom:env(safe-area-inset-bottom,0px);}.pt-safe{padding-top:env(safe-area-inset-top,0px);}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { "colors": { "outline-variant": "#bec9c6", "primary-fixed": "#a9f0e7", "on-primary-fixed": "#00201d", "on-tertiary-container": "#ffac96", "on-primary-fixed-variant": "#00504b", "tertiary-fixed-dim": "#ffb4a1", "secondary-fixed": "#98f3e7", "surface-container-high": "#dbece8", "outline": "#6f7977", "secondary-fixed-dim": "#7cd6cb", "on-primary-container": "#88cdc5", "error-container": "#ffdad6", "on-secondary-container": "#007168", "inverse-primary": "#8dd3cb", "on-secondary": "#ffffff", "on-error-container": "#93000a", "on-tertiary-fixed": "#3c0800", "on-primary": "#ffffff", "surface-variant": "#d6e6e2", "on-background": "#101e1c", "secondary-container": "#98f3e7", "surface-container-lowest": "#ffffff", "error": "#ba1a1a", "on-secondary-fixed": "#00201d", "tertiary-container": "#863520", "surface-container-low": "#e7f7f3", "primary": "#00403b", "inverse-surface": "#253331", "tertiary": "#671f0b", "tertiary-fixed": "#ffdbd2", "inverse-on-surface": "#e4f4f0", "primary-fixed-dim": "#8dd3cb", "on-secondary-fixed-variant": "#00504a", "surface-dim": "#cdddda", "surface-bright": "#edfdf9", "surface": "#edfdf9", "on-tertiary": "#ffffff", "primary-container": "#005953", "on-tertiary-fixed-variant": "#7c2e19", "on-surface": "#101e1c", "on-error": "#ffffff", "surface-container": "#e1f1ee", "secondary": "#006a62", "surface-tint": "#1e6963", "surface-container-highest": "#d6e6e2", "background": "#edfdf9", "on-surface-variant": "#3f4947" }, "borderRadius": { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" }, "spacing": { "space-lg": "1.5rem", "space-md": "1rem", "gutter": "1rem", "space-sm": "0.5rem", "space-xl": "2rem", "space-xs": "0.25rem", "margin": "1.25rem" }, "fontFamily": { "headline-md": ["Plus Jakarta Sans"], "body-md": ["Plus Jakarta Sans"], "label-md": ["Plus Jakarta Sans"], "headline-lg": ["Plus Jakarta Sans"], "body-sm": ["Plus Jakarta Sans"], "headline-lg-mobile": ["Plus Jakarta Sans"], "label-lg": ["Plus Jakarta Sans"], "body-lg": ["Plus Jakarta Sans"], "headline-sm": ["Plus Jakarta Sans"], "label-sm": ["Plus Jakarta Sans"], "display-lg": ["Plus Jakarta Sans"] }, "fontSize": { "headline-md": ["20px", {"lineHeight": "28px", "letterSpacing": "-0.01em", "fontWeight": "700"}], "body-md": ["14px", {"lineHeight": "20px", "fontWeight": "400"}], "label-md": ["12px", {"lineHeight": "16px", "letterSpacing": "0.02em", "fontWeight": "600"}], "headline-lg": ["28px", {"lineHeight": "36px", "letterSpacing": "-0.015em", "fontWeight": "700"}], "body-sm": ["12px", {"lineHeight": "16px", "fontWeight": "400"}], "headline-lg-mobile": ["24px", {"lineHeight": "32px", "letterSpacing": "-0.01em", "fontWeight": "700"}], "label-lg": ["14px", {"lineHeight": "20px", "letterSpacing": "0.01em", "fontWeight": "600"}], "body-lg": ["16px", {"lineHeight": "24px", "fontWeight": "400"}], "headline-sm": ["16px", {"lineHeight": "24px", "fontWeight": "600"}], "label-sm": ["10px", {"lineHeight": "14px", "letterSpacing": "0.04em", "fontWeight": "700"}], "display-lg": ["36px", {"lineHeight": "44px", "letterSpacing": "-0.02em", "fontWeight": "800"}] } } } };</script></head><body class="bg-surface font-body-md text-body-md text-on-surface flex flex-col min-h-screen"><header class="fixed top-0 w-full z-50 pt-safe bg-surface/85 backdrop-blur-xl shadow-[0_1px_12px_rgba(0,89,83,0.06)]"><div class="h-16 px-margin flex items-center justify-between"><div class="flex items-center gap-space-sm"><img src="https://lh3.googleusercontent.com/aida-public/AB6AXuBBaXQuKP4f3IPw3ApdBkvgJxGx7GXP0CYH5VBwS6AiI-JFkd25lnhp3SN_KHClxgmmDGdQw2-90RKGsOANJeDl468_V5zi5UMOw88s2Aj-fqxSnhEOW9jpukJZaxJWnKHdADWKyAVJa93KEA2ZA9-xSnrA74mP9on80ubV5U47poFe-3nWbdjwNQzbMF-ww5deR16bkz_hWyGiFyqUeKm8heydjesKpOhB6rJC7wYhVL_HQ_JROwZ_x15cfLF0G5rarA" alt="RoomieSync Logo" class="w-8 h-8 rounded-lg object-cover shadow-sm mr-2"><div class="flex flex-col"><div class="flex items-center gap-1"><span class="font-headline-sm text-headline-sm text-primary tracking-tight">RoomieSync</span><span class="bg-secondary-container text-on-secondary-container font-label-sm text-label-sm px-1.5 py-0.5 rounded-full">JUIT</span></div><span class="font-label-sm text-label-sm text-on-surface-variant line-clamp-1">Hostels Blocks</span></div></div><div class="flex items-center gap-space-xs"><button class="w-11 h-11 rounded-full flex items-center justify-center text-secondary hover:bg-surface-container transition-colors relative"><span class="material-symbols-outlined text-[22px]">notifications</span><span class="absolute top-2.5 right-2.5 w-2 h-2 rounded-full bg-error ring-2 ring-surface"></span></button><a class="w-11 h-11 flex items-center justify-center" data-path="student-profile" href="#"><img src="https://lh3.googleusercontent.com/aida-public/AB6AXuDtZk9E61f-EQmK3q7e9G51mqyu8OC5_TjnrtL_xj5V3ic3QpocyG_26r7L5U9BO4f-Nk1Sj1o8o1DWXtpujttxky93KTZTZ444Fun3aef6BVGpvWBIy3gqCPjyd3WUgh9bSdhv3DhYaYJmD2X0mn_N1CSavF7DXUdqQAvaU3ptfb1PByUWmTkshDjxZrrE106ZWyOS7DpWh9P_-bgxPk_bXQDDswHzBA4mGk4c9hHn42QGrSQv0Pe0nBJx60HH9ToXyQ" alt="JUIT Crest" class="w-9 h-9 rounded-full object-contain bg-white p-0.5 border border-slate-200 shadow-sm"></a></div></div></header><main class="flex flex-col relative w-full pt-16 pb-28 bg-surface"><div class="flex flex-col w-full">
+<!-- Progress Sub-Header & Waknaghat Mountain Context -->
+<section class="px-margin pt-4 pb-2">
+<div class="flex items-center justify-between gap-space-sm mb-3">
+<a class="w-10 h-10 rounded-full bg-surface-container flex items-center justify-center text-primary hover:bg-surface-container-high transition-colors" data-path="roommate-matches" href="#">
+<span class="material-symbols-outlined text-[20px]">arrow_back</span>
+</a>
+<div class="flex flex-col items-center">
+<div class="flex items-center gap-1.5">
+<span class="font-headline-sm text-headline-sm text-primary">Compatibility Quiz</span>
+<span class="material-symbols-outlined text-secondary text-[18px]">verified</span>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Waknaghat Campus Allotment 2025</span>
+</div>
+<div class="w-10 h-10 rounded-full bg-surface-container-low flex items-center justify-center text-secondary">
+<span class="material-symbols-outlined text-[20px]">tune</span>
+</div>
+</div>
+<!-- Live Progress Gauge Card -->
+<div class="bg-surface-container-lowest rounded-2xl p-4 shadow-sm relative overflow-hidden">
+<div class="flex items-center justify-between mb-2">
+<div class="flex items-center gap-2">
+<span class="w-2.5 h-2.5 rounded-full bg-secondary animate-pulse"></span>
+<span class="font-label-md text-label-md text-primary" id="quiz-progress-text">0 of 10 Answered</span>
+</div>
+<span class="bg-secondary-container text-on-secondary-container font-label-sm text-label-sm px-2.5 py-0.5 rounded-full" id="quiz-percentage-badge">0% Ready</span>
+</div>
+<!-- Progress Bar Track -->
+<div class="w-full bg-surface-container rounded-full h-2 overflow-hidden">
+<div class="bg-primary-container h-full rounded-full transition-all duration-300 ease-out" id="quiz-progress-bar" style="width: 0%"></div>
+</div>
+<div class="mt-2.5 flex items-center justify-between text-on-surface-variant font-label-sm text-label-sm">
+<span class="">Smart Algorithm Scoring</span>
+<span class="flex items-center gap-1 text-secondary">
+<span class="material-symbols-outlined text-[14px]">auto_awesome</span>
+          Matches with 420+ JUITians
+        </span>
+</div>
+</div>
+</section>
+<!-- Campus Context Tip Card -->
+<section class="px-margin py-2">
+<div class="bg-surface-container-low rounded-2xl p-3.5 flex items-start gap-3">
+<div class="w-8 h-8 rounded-full bg-secondary-container text-on-secondary-container flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-[18px]">nature_people</span>
+</div>
+<div class="flex-1 min-w-0">
+<h4 class="font-label-md text-label-md text-primary">Hill Station Living Factor</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-0.5">Waknaghat winters get down to 2°C! Habits like heater use, study silence, and ventilation strongly influence peaceful co-living.</p>
+</div>
+</div>
+</section>
+<!-- 10 Structured Quiz Questions List -->
+<form class="px-margin flex flex-col gap-5 py-3" id="compatibility-quiz-form">
+<!-- Q1: Sleep Rhythm -->
+<div class="bg-surface-container-lowest rounded-2xl p-4 shadow-sm flex flex-col gap-3.5 question-card" data-qid="1">
+<div class="flex items-start justify-between gap-2">
+<div class="flex items-center gap-2.5">
+<span class="w-6 h-6 rounded-full bg-surface-container-high text-primary font-label-sm text-label-sm flex items-center justify-center">1</span>
+<span class="font-headline-sm text-headline-sm text-on-surface">Sleep Rhythm &amp; Lights-Out</span>
+</div>
+<span class="status-indicator opacity-0 text-secondary material-symbols-outlined text-[20px]">check_circle</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">When does your desk lamp turn off on typical weekdays?</p>
+<div class="grid grid-cols-1 gap-2.5">
+<label class="quiz-option cursor-pointer bg-surface-container-low rounded-xl p-3 flex items-center justify-between transition-all">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-secondary text-[22px]">wb_twilight</span>
+<div class="flex flex-col">
+<span class="font-label-md text-label-md text-on-surface">Early Riser</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Sleep by 10:30 PM • Wake 6:00 AM</span>
+</div>
+</div>
+<input class="accent-[#005953] w-4 h-4" name="q1" type="radio" value="early">
+</label>
+<label class="quiz-option cursor-pointer bg-surface-container-low rounded-xl p-3 flex items-center justify-between transition-all">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-secondary text-[22px]">bedtime</span>
+<div class="flex flex-col">
+<span class="font-label-md text-label-md text-on-surface">Night Owl</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Coding/Vibing till 2:00 AM+ • Late mornings</span>
+</div>
+</div>
+<input class="accent-[#005953] w-4 h-4" name="q1" type="radio" value="owl">
+</label>
+<label class="quiz-option cursor-pointer bg-surface-container-low rounded-xl p-3 flex items-center justify-between transition-all">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-secondary text-[22px]">schedule</span>
+<div class="flex flex-col">
+<span class="font-label-md text-label-md text-on-surface">Balanced Routine</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Lights out 11:30 PM - 12:30 AM steady</span>
+</div>
+</div>
+<input class="accent-[#005953] w-4 h-4" name="q1" type="radio" value="balanced">
+</label>
+</div>
+</div>
+<!-- Q2: Study & Focus Environment -->
+<div class="bg-surface-container-lowest rounded-2xl p-4 shadow-sm flex flex-col gap-3.5 question-card" data-qid="2">
+<div class="flex items-start justify-between gap-2">
+<div class="flex items-center gap-2.5">
+<span class="w-6 h-6 rounded-full bg-surface-container-high text-primary font-label-sm text-label-sm flex items-center justify-center">2</span>
+<span class="font-headline-sm text-headline-sm text-on-surface">Study &amp; Focus Environment</span>
+</div>
+<span class="status-indicator opacity-0 text-secondary material-symbols-outlined text-[20px]">check_circle</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">What sound environment keeps you in the exam zone?</p>
+<div class="grid grid-cols-1 gap-2.5">
+<label class="quiz-option cursor-pointer bg-surface-container-low rounded-xl p-3 flex items-center justify-between transition-all">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-secondary text-[22px]">volume_off</span>
+<div class="flex flex-col">
+<span class="font-label-md text-label-md text-on-surface">Pin-Drop Silence</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Zero phone calls, absolute library mode</span>
+</div>
+</div>
+<input class="accent-[#005953] w-4 h-4" name="q2" type="radio" value="silence">
+</label>
+<label class="quiz-option cursor-pointer bg-surface-container-low rounded-xl p-3 flex items-center justify-between transition-all">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-secondary text-[22px]">headphones</span>
+<div class="flex flex-col">
+<span class="font-label-md text-label-md text-on-surface">Soft Music / Lofi Beats</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Low speaker ambient sound or headphone chill</span>
+</div>
+</div>
+<input class="accent-[#005953] w-4 h-4" name="q2" type="radio" value="lofi">
+</label>
+<label class="quiz-option cursor-pointer bg-surface-container-low rounded-xl p-3 flex items-center justify-between transition-all">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-secondary text-[22px]">forum</span>
+<div class="flex flex-col">
+<span class="font-label-md text-label-md text-on-surface">Collaborative / Discussion</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Discussing slides, whiteboard group problem solving</span>
+</div>
+</div>
+<input class="accent-[#005953] w-4 h-4" name="q2" type="radio" value="group">
+</label>
+</div>
+</div>
+<!-- Q3: Cleanliness & Chores -->
+<div class="bg-surface-container-lowest rounded-2xl p-4 shadow-sm flex flex-col gap-3.5 question-card" data-qid="3">
+<div class="flex items-start justify-between gap-2">
+<div class="flex items-center gap-2.5">
+<span class="w-6 h-6 rounded-full bg-surface-container-high text-primary font-label-sm text-label-sm flex items-center justify-center">3</span>
+<span class="font-headline-sm text-headline-sm text-on-surface">Room Cleanliness &amp; Chores</span>
+</div>
+<span class="status-indicator opacity-0 text-secondary material-symbols-outlined text-[20px]">check_circle</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">How tidy do you keep your study desk &amp; wardrobe?</p>
+<div class="grid grid-cols-1 gap-2.5">
+<label class="quiz-option cursor-pointer bg-surface-container-low rounded-xl p-3 flex items-center justify-between transition-all">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-secondary text-[22px]">cleaning_services</span>
+<div class="flex flex-col">
+<span class="font-label-md text-label-md text-on-surface">Super Tidy &amp; Neat</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Daily bed-making, zero desk clutter allowed</span>
+</div>
+</div>
+<input class="accent-[#005953] w-4 h-4" name="q3" type="radio" value="tidy">
+</label>
+<label class="quiz-option cursor-pointer bg-surface-container-low rounded-xl p-3 flex items-center justify-between transition-all">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-secondary text-[22px]">calendar_today</span>
+<div class="flex flex-col">
+<span class="font-label-md text-label-md text-on-surface">Weekly Deep Sweep</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Manageable clutter during week, clean Sundays</span>
+</div>
+</div>
+<input class="accent-[#005953] w-4 h-4" name="q3" type="radio" value="weekly">
+</label>
+<label class="quiz-option cursor-pointer bg-surface-container-low rounded-xl p-3 flex items-center justify-between transition-all">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-secondary text-[22px]">interests</span>
+<div class="flex flex-col">
+<span class="font-label-md text-label-md text-on-surface">Organized Chaos</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Relaxed approach; everything is found where left</span>
+</div>
+</div>
+<input class="accent-[#005953] w-4 h-4" name="q3" type="radio" value="chaos">
+</label>
+</div>
+</div>
+<!-- Q4: AC & Climate Preference -->
+<div class="bg-surface-container-lowest rounded-2xl p-4 shadow-sm flex flex-col gap-3.5 question-card" data-qid="4">
+<div class="flex items-start justify-between gap-2">
+<div class="flex items-center gap-2.5">
+<span class="w-6 h-6 rounded-full bg-surface-container-high text-primary font-label-sm text-label-sm flex items-center justify-center">4</span>
+<span class="font-headline-sm text-headline-sm text-on-surface">Climate &amp; Ventilation</span>
+</div>
+<span class="status-indicator opacity-0 text-secondary material-symbols-outlined text-[20px]">check_circle</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Hostel window &amp; heater preferences in Himachal weather</p>
+<div class="grid grid-cols-1 gap-2.5">
+<label class="quiz-option cursor-pointer bg-surface-container-low rounded-xl p-3 flex items-center justify-between transition-all">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-secondary text-[22px]">air</span>
+<div class="flex flex-col">
+<span class="font-label-md text-label-md text-on-surface">Windows Open / Fresh Mountain Air</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Natural hill breeze preferred over heaters</span>
+</div>
+</div>
+<input class="accent-[#005953] w-4 h-4" name="q4" type="radio" value="fresh_air">
+</label>
+<label class="quiz-option cursor-pointer bg-surface-container-low rounded-xl p-3 flex items-center justify-between transition-all">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-secondary text-[22px]">thermostat</span>
+<div class="flex flex-col">
+<span class="font-label-md text-label-md text-on-surface">Moderate Temperature</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Fan on low/medium, doors closed at night</span>
+</div>
+</div>
+<input class="accent-[#005953] w-4 h-4" name="q4" type="radio" value="moderate">
+</label>
+<label class="quiz-option cursor-pointer bg-surface-container-low rounded-xl p-3 flex items-center justify-between transition-all">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-secondary text-[22px]">heat</span>
+<div class="flex flex-col">
+<span class="font-label-md text-label-md text-on-surface">Cozy &amp; Warm (Blower / Heater)</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Draft-proof room, heater running in winter</span>
+</div>
+</div>
+<input class="accent-[#005953] w-4 h-4" name="q4" type="radio" value="warm">
+</label>
+</div>
+</div>
+<!-- Q5: Social Life & Visitors -->
+<div class="bg-surface-container-lowest rounded-2xl p-4 shadow-sm flex flex-col gap-3.5 question-card" data-qid="5">
+<div class="flex items-start justify-between gap-2">
+<div class="flex items-center gap-2.5">
+<span class="w-6 h-6 rounded-full bg-surface-container-high text-primary font-label-sm text-label-sm flex items-center justify-center">5</span>
+<span class="font-headline-sm text-headline-sm text-on-surface">Social Life &amp; Visitors</span>
+</div>
+<span class="status-indicator opacity-0 text-secondary material-symbols-outlined text-[20px]">check_circle</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">How open is your room door to hostel floor wingmates?</p>
+<div class="grid grid-cols-1 gap-2.5">
+<label class="quiz-option cursor-pointer bg-surface-container-low rounded-xl p-3 flex items-center justify-between transition-all">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-secondary text-[22px]">groups</span>
+<div class="flex flex-col">
+<span class="font-label-md text-label-md text-on-surface">The Social Hub</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Friends dropping in for tea, gaming &amp; jam sessions</span>
+</div>
+</div>
+<input class="accent-[#005953] w-4 h-4" name="q5" type="radio" value="social_hub">
+</label>
+<label class="quiz-option cursor-pointer bg-surface-container-low rounded-xl p-3 flex items-center justify-between transition-all">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-secondary text-[22px]">handshake</span>
+<div class="flex flex-col">
+<span class="font-label-md text-label-md text-on-surface">Occasional / Scheduled</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Friends over for assignments, heads-up in advance</span>
+</div>
+</div>
+<input class="accent-[#005953] w-4 h-4" name="q5" type="radio" value="occasional">
+</label>
+<label class="quiz-option cursor-pointer bg-surface-container-low rounded-xl p-3 flex items-center justify-between transition-all">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-secondary text-[22px]">lock</span>
+<div class="flex flex-col">
+<span class="font-label-md text-label-md text-on-surface">Private Sanctuary</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Room is only for resting; socialise outside in common room</span>
+</div>
+</div>
+<input class="accent-[#005953] w-4 h-4" name="q5" type="radio" value="private">
+</label>
+</div>
+</div>
+<!-- Visual Divider Card with Waknaghat Campus Photo -->
+<div class="bg-surface-container rounded-2xl p-4 flex items-center gap-3.5 shadow-sm">
+<img class="w-16 h-16 rounded-xl object-cover shrink-0" data-alt="Warm modern student lounge at Jaypee University of Information Technology Waknaghat Himachal Pradesh with pine wood desks, warm morning sunlight, and views of cedar pine trees through large glass windows." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDcbvQqsxCIkYUCS3dYMW3ogeaZZ7K0Ub4uIJkzmc2wmSOQdOZI5tJE3tGbMREfubScCXMjuHUbh3As3EqhlsUD0jo701NQxQnCUlipEtC8e8YtcX4Cu1Je6qTI0lhdx1sgIy9AsfsMaQOPe7Ub8WURQpKX2kadEvNjLLLz1IVQjBRsMp2Ct_qNpNQfFdBJeNnQHDeHnO5DUHOHaIRMZdkZ2IV20iOELti8-k5P8L638Ds5w8zuqReH">
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-secondary uppercase tracking-wider">Halfway Checkpoint</span>
+<span class="font-headline-sm text-headline-sm text-primary">5 of 10 done!</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Your answers optimize matches in Azad, Shastri, and Parmar hostels.</span>
+</div>
+</div>
+<!-- Q6: Sharing Belongings -->
+<div class="bg-surface-container-lowest rounded-2xl p-4 shadow-sm flex flex-col gap-3.5 question-card" data-qid="6">
+<div class="flex items-start justify-between gap-2">
+<div class="flex items-center gap-2.5">
+<span class="w-6 h-6 rounded-full bg-surface-container-high text-primary font-label-sm text-label-sm flex items-center justify-center">6</span>
+<span class="font-headline-sm text-headline-sm text-on-surface">Sharing Belongings &amp; Gadgets</span>
+</div>
+<span class="status-indicator opacity-0 text-secondary material-symbols-outlined text-[20px]">check_circle</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Borrowing chargers, stationery, kettle, and books:</p>
+<div class="grid grid-cols-1 gap-2.5">
+<label class="quiz-option cursor-pointer bg-surface-container-low rounded-xl p-3 flex items-center justify-between transition-all">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-secondary text-[22px]">diversity_1</span>
+<div class="flex flex-col">
+<span class="font-label-md text-label-md text-on-surface">Open &amp; Generous</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">What's mine is yours; feel free to grab essentials</span>
+</div>
+</div>
+<input class="accent-[#005953] w-4 h-4" name="q6" type="radio" value="open">
+</label>
+<label class="quiz-option cursor-pointer bg-surface-container-low rounded-xl p-3 flex items-center justify-between transition-all">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-secondary text-[22px]">chat_bubble_outline</span>
+<div class="flex flex-col">
+<span class="font-label-md text-label-md text-on-surface">Ask Before Taking</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Happy to share if you just drop a quick polite note</span>
+</div>
+</div>
+<input class="accent-[#005953] w-4 h-4" name="q6" type="radio" value="ask_first">
+</label>
+<label class="quiz-option cursor-pointer bg-surface-container-low rounded-xl p-3 flex items-center justify-between transition-all">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-secondary text-[22px]">do_not_touch</span>
+<div class="flex flex-col">
+<span class="font-label-md text-label-md text-on-surface">Strictly Personal</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Prefer keeping gear and personal items separate</span>
+</div>
+</div>
+<input class="accent-[#005953] w-4 h-4" name="q6" type="radio" value="strict">
+</label>
+</div>
+</div>
+<!-- Q7: Dietary / Food Habits -->
+<div class="bg-surface-container-lowest rounded-2xl p-4 shadow-sm flex flex-col gap-3.5 question-card" data-qid="7">
+<div class="flex items-start justify-between gap-2">
+<div class="flex items-center gap-2.5">
+<span class="w-6 h-6 rounded-full bg-surface-container-high text-primary font-label-sm text-label-sm flex items-center justify-center">7</span>
+<span class="font-headline-sm text-headline-sm text-on-surface">Dietary &amp; Food in Room</span>
+</div>
+<span class="status-indicator opacity-0 text-secondary material-symbols-outlined text-[20px]">check_circle</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Room food etiquette and Annapurna Mess dining habits:</p>
+<div class="grid grid-cols-1 gap-2.5">
+<label class="quiz-option cursor-pointer bg-surface-container-low rounded-xl p-3 flex items-center justify-between transition-all">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-secondary text-[22px]">eco</span>
+<div class="flex flex-col">
+<span class="font-label-md text-label-md text-on-surface">Pure Vegetarian / Jain Preference</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Prefer vegetarian snacks &amp; room without non-veg orders</span>
+</div>
+</div>
+<input class="accent-[#005953] w-4 h-4" name="q7" type="radio" value="pure_veg">
+</label>
+<label class="quiz-option cursor-pointer bg-surface-container-low rounded-xl p-3 flex items-center justify-between transition-all">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-secondary text-[22px]">restaurant</span>
+<div class="flex flex-col">
+<span class="font-label-md text-label-md text-on-surface">Non-Vegetarian Friendly</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Comfortable with non-veg takeaway &amp; snacks in room</span>
+</div>
+</div>
+<input class="accent-[#005953] w-4 h-4" name="q7" type="radio" value="non_veg">
+</label>
+<label class="quiz-option cursor-pointer bg-surface-container-low rounded-xl p-3 flex items-center justify-between transition-all">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-secondary text-[22px]">no_meals</span>
+<div class="flex flex-col">
+<span class="font-label-md text-label-md text-on-surface">No Meals Inside Room</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Strictly Annapurna Mess only (avoids crumbs &amp; pests)</span>
+</div>
+</div>
+<input class="accent-[#005953] w-4 h-4" name="q7" type="radio" value="mess_only">
+</label>
+</div>
+</div>
+<!-- Q8: Hobbies & Free Time -->
+<div class="bg-surface-container-lowest rounded-2xl p-4 shadow-sm flex flex-col gap-3.5 question-card" data-qid="8">
+<div class="flex items-start justify-between gap-2">
+<div class="flex items-center gap-2.5">
+<span class="w-6 h-6 rounded-full bg-surface-container-high text-primary font-label-sm text-label-sm flex items-center justify-center">8</span>
+<span class="font-headline-sm text-headline-sm text-on-surface">Hobbies &amp; Free Time Vibes</span>
+</div>
+<span class="status-indicator opacity-0 text-secondary material-symbols-outlined text-[20px]">check_circle</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">What fills your evening hours between 6 PM and 10 PM?</p>
+<div class="grid grid-cols-1 gap-2.5">
+<label class="quiz-option cursor-pointer bg-surface-container-low rounded-xl p-3 flex items-center justify-between transition-all">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-secondary text-[22px]">sports_volleyball</span>
+<div class="flex flex-col">
+<span class="font-label-md text-label-md text-on-surface">Sports &amp; Gym at JUIT Courts</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Basketball, badminton, gym sessions, outdoor tracks</span>
+</div>
+</div>
+<input class="accent-[#005953] w-4 h-4" name="q8" type="radio" value="sports">
+</label>
+<label class="quiz-option cursor-pointer bg-surface-container-low rounded-xl p-3 flex items-center justify-between transition-all">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-secondary text-[22px]">sports_esports</span>
+<div class="flex flex-col">
+<span class="font-label-md text-label-md text-on-surface">Tech, Coding &amp; Gaming</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Hackathons, Valorant/FIFA, dev communities</span>
+</div>
+</div>
+<input class="accent-[#005953] w-4 h-4" name="q8" type="radio" value="gaming_tech">
+</label>
+<label class="quiz-option cursor-pointer bg-surface-container-low rounded-xl p-3 flex items-center justify-between transition-all">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-secondary text-[22px]">music_note</span>
+<div class="flex flex-col">
+<span class="font-label-md text-label-md text-on-surface">Music, Anime &amp; Binging</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Guitar practice, watching series, reading novels</span>
+</div>
+</div>
+<input class="accent-[#005953] w-4 h-4" name="q8" type="radio" value="music_binge">
+</label>
+</div>
+</div>
+<!-- Q9: Weekend Routine -->
+<div class="bg-surface-container-lowest rounded-2xl p-4 shadow-sm flex flex-col gap-3.5 question-card" data-qid="9">
+<div class="flex items-start justify-between gap-2">
+<div class="flex items-center gap-2.5">
+<span class="w-6 h-6 rounded-full bg-surface-container-high text-primary font-label-sm text-label-sm flex items-center justify-center">9</span>
+<span class="font-headline-sm text-headline-sm text-on-surface">Weekend Routine</span>
+</div>
+<span class="status-indicator opacity-0 text-secondary material-symbols-outlined text-[20px]">check_circle</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Saturday and Sunday at Waknaghat:</p>
+<div class="grid grid-cols-1 gap-2.5">
+<label class="quiz-option cursor-pointer bg-surface-container-low rounded-xl p-3 flex items-center justify-between transition-all">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-secondary text-[22px]">hotel</span>
+<div class="flex flex-col">
+<span class="font-label-md text-label-md text-on-surface">Stay In &amp; Recharge</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Long sleep, movie marathons, hostel cozy chill</span>
+</div>
+</div>
+<input class="accent-[#005953] w-4 h-4" name="q9" type="radio" value="chill_in">
+</label>
+<label class="quiz-option cursor-pointer bg-surface-container-low rounded-xl p-3 flex items-center justify-between transition-all">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-secondary text-[22px]">hiking</span>
+<div class="flex flex-col">
+<span class="font-label-md text-label-md text-on-surface">Campus Clubs &amp; Treks</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Rotaract/ACM events, hikes to Solan &amp; Shimla</span>
+</div>
+</div>
+<input class="accent-[#005953] w-4 h-4" name="q9" type="radio" value="clubs_out">
+</label>
+<label class="quiz-option cursor-pointer bg-surface-container-low rounded-xl p-3 flex items-center justify-between transition-all">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-secondary text-[22px]">directions_bus</span>
+<div class="flex flex-col">
+<span class="font-label-md text-label-md text-on-surface">Frequent Home Tripper</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Travel back home on alternate weekends</span>
+</div>
+</div>
+<input class="accent-[#005953] w-4 h-4" name="q9" type="radio" value="home_tripper">
+</label>
+</div>
+</div>
+<!-- Q10: Conflict Resolution -->
+<div class="bg-surface-container-lowest rounded-2xl p-4 shadow-sm flex flex-col gap-3.5 question-card" data-qid="10">
+<div class="flex items-start justify-between gap-2">
+<div class="flex items-center gap-2.5">
+<span class="w-6 h-6 rounded-full bg-surface-container-high text-primary font-label-sm text-label-sm flex items-center justify-center">10</span>
+<span class="font-headline-sm text-headline-sm text-on-surface">Conflict Resolution Style</span>
+</div>
+<span class="status-indicator opacity-0 text-secondary material-symbols-outlined text-[20px]">check_circle</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">If a roommate issue arises (noise, cleaning, lights):</p>
+<div class="grid grid-cols-1 gap-2.5">
+<label class="quiz-option cursor-pointer bg-surface-container-low rounded-xl p-3 flex items-center justify-between transition-all">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-secondary text-[22px]">quickreply</span>
+<div class="flex flex-col">
+<span class="font-label-md text-label-md text-on-surface">Direct &amp; Immediate</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Say it right then respectfully to clear the air</span>
+</div>
+</div>
+<input class="accent-[#005953] w-4 h-4" name="q10" type="radio" value="direct">
+</label>
+<label class="quiz-option cursor-pointer bg-surface-container-low rounded-xl p-3 flex items-center justify-between transition-all">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-secondary text-[22px]">coffee</span>
+<div class="flex flex-col">
+<span class="font-label-md text-label-md text-on-surface">Calm Evening Tea Talk</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Pause, collect thoughts, talk through it later</span>
+</div>
+</div>
+<input class="accent-[#005953] w-4 h-4" name="q10" type="radio" value="calm_talk">
+</label>
+<label class="quiz-option cursor-pointer bg-surface-container-low rounded-xl p-3 flex items-center justify-between transition-all">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-secondary text-[22px]">all_inclusive</span>
+<div class="flex flex-col">
+<span class="font-label-md text-label-md text-on-surface">Adaptable &amp; Easygoing</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Go with the flow; small friction doesn't bother me</span>
+</div>
+</div>
+<input class="accent-[#005953] w-4 h-4" name="q10" type="radio" value="adaptable">
+</label>
+</div>
+</div>
+</form>
+<!-- Algorithm Match Teaser Strip -->
+
+<!-- Sticky Bottom Submission Bar -->
+<section class="sticky bottom-20 z-40 px-margin pt-2 pb-3"><div class="bg-surface-container-lowest/95 backdrop-blur-xl rounded-2xl p-4 shadow-xl flex flex-col gap-3"><a class="w-full h-12 rounded-full bg-primary text-on-primary font-label-lg text-label-lg flex items-center justify-center gap-2 hover:bg-primary-container transition-all shadow-md" data-path="roommate-matches" href="#" id="submit-quiz-btn"><span class="">Save &amp; Match Roommates</span><span class="material-symbols-outlined text-[20px]">arrow_forward</span></a></div></section>
+</div>
+<script>
+  (function() {
+    const form = document.getElementById('compatibility-quiz-form');
+    const progressBar = document.getElementById('quiz-progress-bar');
+    const progressText = document.getElementById('quiz-progress-text');
+    const percentageBadge = document.getElementById('quiz-percentage-badge');
+    const bottomStatusText = document.getElementById('bottom-status-text');
+    const bottomCounterPill = document.getElementById('bottom-counter-pill');
+    const quickFillBtn = document.getElementById('quick-fill-btn');
+    const submitBtn = document.getElementById('submit-quiz-btn');
+
+    function updateQuizProgress() {
+      const questions = 10;
+      let answered = 0;
+
+      for (let i = 1; i <= questions; i++) {
+        const card = document.querySelector(`.question-card[data-qid="${i}"]`);
+        const checkedInput = form.querySelector(`input[name="q${i}"]:checked`);
+        const statusIcon = card ? card.querySelector('.status-indicator') : null;
+        
+        // Highlight chosen options
+        if (card) {
+          const options = card.querySelectorAll('.quiz-option');
+          options.forEach(opt => {
+            const radio = opt.querySelector('input[type="radio"]');
+            if (radio && radio.checked) {
+              opt.classList.add('bg-secondary-container/40', 'shadow-sm');
+              opt.classList.remove('bg-surface-container-low');
+            } else {
+              opt.classList.remove('bg-secondary-container/40', 'shadow-sm');
+              opt.classList.add('bg-surface-container-low');
+            }
+          });
+        }
+
+        if (checkedInput) {
+          answered++;
+          if (statusIcon) {
+            statusIcon.classList.remove('opacity-0');
+            statusIcon.classList.add('opacity-100');
+          }
+        } else {
+          if (statusIcon) {
+            statusIcon.classList.add('opacity-0');
+            statusIcon.classList.remove('opacity-100');
+          }
+        }
+      }
+
+      const percent = Math.round((answered / questions) * 100);
+      if (progressBar) progressBar.style.width = percent + '%';
+      if (progressText) progressText.innerText = `${answered} of 10 Answered`;
+      if (percentageBadge) percentageBadge.innerText = `${percent}% Ready`;
+      if (bottomCounterPill) bottomCounterPill.innerText = `${answered}/10 Done`;
+
+      if (answered === 10) {
+        if (bottomStatusText) bottomStatusText.innerText = 'All set! 100% profile match active';
+        if (submitBtn) {
+          submitBtn.classList.remove('bg-primary');
+          submitBtn.classList.add('bg-primary-container');
+        }
+      } else {
+        if (bottomStatusText) bottomStatusText.innerText = `${10 - answered} more questions for precise JUIT match`;
+      }
+    }
+
+    if (form) {
+      form.addEventListener('change', updateQuizProgress);
+    }
+
+    // Quick Sample Auto-Fill for instant gratification preview
+    if (quickFillBtn) {
+      quickFillBtn.addEventListener('click', function() {
+        const sampleChoices = {
+          q1: 'balanced',
+          q2: 'lofi',
+          q3: 'tidy',
+          q4: 'fresh_air',
+          q5: 'occasional',
+          q6: 'ask_first',
+          q7: 'pure_veg',
+          q8: 'gaming_tech',
+          q9: 'clubs_out',
+          q10: 'calm_talk'
+        };
+
+        for (const [key, val] of Object.entries(sampleChoices)) {
+          const radio = form.querySelector(`input[name="${key}"][value="${val}"]`);
+          if (radio) radio.checked = true;
+        }
+        updateQuizProgress();
+      });
+    }
+
+    // Initial run
+    updateQuizProgress();
+  })();
+</script></main><div class="fixed bottom-0 w-full z-50 pb-safe pointer-events-none"><div class="px-margin pb-3"><nav class="pointer-events-auto bg-surface-container-lowest/95 backdrop-blur-xl rounded-[28px] shadow-[0_10px_30px_-4px_rgba(0,89,83,0.12),0_4px_10px_-2px_rgba(0,89,83,0.04)] px-2 py-1.5 flex justify-around items-center" data-active-classes="text-primary-container font-bold [&amp;_span.indicator]:opacity-100"><a class="flex flex-col items-center justify-center min-w-[56px] h-12 rounded-full text-outline hover:text-primary transition-all relative" data-path="home-explore" href="#"><span class="material-symbols-outlined text-[24px]">explore</span><span class="font-label-sm text-label-sm mt-0.5">Explore</span><span class="indicator opacity-0 w-1 h-1 rounded-full bg-primary-container mt-0.5 transition-opacity"></span></a><a class="flex flex-col items-center justify-center min-w-[56px] h-12 rounded-full text-outline hover:text-primary transition-all relative" data-path="roommate-matches" href="#"><span class="material-symbols-outlined text-[24px]">sync_alt</span><span class="font-label-sm text-label-sm mt-0.5">Matches</span><span class="indicator opacity-0 w-1 h-1 rounded-full bg-primary-container mt-0.5 transition-opacity"></span></a><a aria-current="page" class="flex flex-col items-center justify-center min-w-[56px] h-12 rounded-full transition-all relative text-primary-container font-bold [&amp;_span.indicator]:opacity-100" data-path="hostels-blocks" href="#"><span class="material-symbols-outlined text-[24px]">apartment</span><span class="font-label-sm text-label-sm mt-0.5">Hostels</span><span class="indicator opacity-0 w-1 h-1 rounded-full bg-primary-container mt-0.5 transition-opacity"></span></a><a class="flex flex-col items-center justify-center min-w-[56px] h-12 rounded-full text-outline hover:text-primary transition-all relative" data-path="sync-requests" href="#"><span class="material-symbols-outlined text-[24px]">inbox</span><span class="font-label-sm text-label-sm mt-0.5">Requests</span><span class="indicator opacity-0 w-1 h-1 rounded-full bg-primary-container mt-0.5 transition-opacity"></span></a><a class="flex flex-col items-center justify-center min-w-[56px] h-12 rounded-full text-outline hover:text-primary transition-all relative" data-path="student-profile" href="#"><span class="material-symbols-outlined text-[24px]">person</span><span class="font-label-sm text-label-sm mt-0.5">Profile</span><span class="indicator opacity-0 w-1 h-1 rounded-full bg-primary-container mt-0.5 transition-opacity"></span></a></nav></div></div>
+
+</body></html>
